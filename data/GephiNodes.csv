@@ -1,0 +1,596 @@
+id,label,type_colour
+0,CNN Breaking News,0
+1,Hillary Clinton,0
+2,The Economist,0
+3,Reuters,0
+4,The Washington Post,0
+5,J.K. Rowling,0
+6,The Associated Press,0
+7,White House Archived,0
+8,Breaking News,0
+9,The New Yorker,0
+10,Ivanka Trump,0
+11,Gary Lineker,0
+12,Jeremy Clarkson,0
+13,Piers Morgan,2
+14,Financial Times,0
+15,Alexandria Ocasio-Cortez,0
+16,UK Prime Minister,0
+17,WikiLeaks,2
+18,Lord Sugar,0
+19,Eddie Izzard,0
+20,Emmanuel Macron,0
+21,Stephanie Grisham,0
+22,The Royal Family,0
+23,POLITICO,0
+24,Financial Times,0
+25,Mayor of London,0
+26,Nate Silver,0
+27,Jemima Goldsmith,0
+28,Kellyanne Conway,0
+29,Guardian news,2
+30,The Independent,0
+31,Brian Cox,0
+32,Arianna Huffington,0
+33,The Telegraph,0
+34,Daily Mail Online,0
+35,Jeremy Corbyn,2
+36,David Mitchell,0
+37,Channel 4 News,2
+38,ITV News,2
+39,David Cameron,0
+40,GOV UK,0
+41,The Sun,0
+42,UK Parliament,0
+43,Boris Johnson,0
+44,Nigel Farage,0
+45,Jon Snow,2
+46,The Times,0
+47,richard bacon,2
+48,Henry Winter,0
+49,Metropolitan Police,0
+50,Charlie Brooker,0
+51,Maggie Haberman,0
+52,European Commission 🇪🇺,0
+53,David Axelrod,0
+54,Charles Michel,0
+55,Daily Mirror,0
+56,Laura Kuenssberg,2
+57,Sadiq Khan,2
+58,Nicola Sturgeon,2
+59,Robert Peston,0
+60,Andrew Neil,2
+61,Eamonn Holmes,2
+62,Yanis Varoufakis,0
+63,Nick Robinson,1
+64,Owen Jones🌹,2
+65,Foreign Office 🇬🇧,2
+66,Home Office,0
+67,Clarence House,0
+68,Richard Osman,0
+69,Anthony Scaramucci,0
+70,David Frum,0
+71,Caitlin Moran,0
+72,Mehdi Hasan,1
+73,Telegraph Breaking News,0
+74,Ed Miliband,0
+75,Jean-Claude Juncker,0
+76,Rupert Murdoch,0
+77,Jeremy Vine,2
+78,Martin Schulz,0
+79,Martin Lewis,0
+80,BBC Politics,0
+81,David Baddiel,0
+82,Susanna Reid,2
+83,Have I Got News For You,0
+84,Armando Iannucci,0
+85,BBC Newsnight,2
+86,Paul Mason,2
+87,Evening Standard,0
+88,Graham Linehan,0
+89,Good Morning Britain,0
+90,David Lammy,2
+91,Krishnan Guru-Murthy,2
+92,James O'Brien,2
+93,Hugh Grant,0
+94,BBC Question Time,0
+95,ALASTAIR CAMPBELL,0
+96,Media Guardian,0
+97,Evan Davis,0
+98,BBC Radio 4,2
+99,ben goldacre,2
+100,Conservatives,2
+101,Victoria Coren Mitchell,0
+102,Carole Cadwalladr,2
+103,Kay Burley,0
+104,Caroline Lucas,2
+105,David Schneider,2
+106,Al Murray - DKMS.ORG.UK,0
+107,Guy Verhofstadt,0
+108,The Sunday Times,0
+109,Andrew Rawnsley,1
+110,HM Treasury,0
+111,Nick Clegg,0
+112,Daniel Finkelstein,2
+113,Ministry of Justice,0
+114,Chuka Umunna,2
+115,Cabinet Office,0
+116,Jacob Rees-Mogg,0
+117,Chris Addison,0
+118,Jess Phillips MP,2
+119,Martha Kearney,0
+120,DFID,0
+121,EU Council Press,0
+122,DfE,2
+123,George Galloway,0
+124,UK House of Commons,0
+125,Faisal Islam,0
+126,George Monbiot,0
+127,Liberal Democrats,0
+128,Keir Starmer,2
+129,Diane Abbott MP,2
+130,The Secret Barrister,2
+131,Marina Hyde,2
+132,Alex Salmond,0
+133,Bank of England,2
+134,William Hague,0
+135,House of Lords,2
+136,Leave.EU,2
+137,David Miliband,0
+138,Department of Health and Social Care,0
+139,Office for National Statistics,2
+140,Ed Balls,0
+141,Yvette Cooper,2
+142,John Prescott,2
+143,The SNP,2
+144,John McDonnell MP,2
+145,Ian Dunt,1
+146,Grace Dent,2
+147,أبو عمّار,0
+148,Jamie Ross,2
+149,Guardian politics,2
+150,mary beard,0
+151,Femi,0
+152,Leo Varadkar,0
+153,Jim Waterson,0
+154,UK Civil Service,0
+155,George Osborne,0
+156,Ministry of Defence 🇬🇧,0
+157,Anne Applebaum,0
+158,Fraser Nelson,2
+159,Mishal Husain,0
+160,CPS,2
+161,POLITICO Europe,0
+162,DWP Press Office,2
+163,Rory Stewart,2
+164,DCMS,2
+165,Ash Sarkar,0
+166,Andy Burnham,2
+167,jon ronson,0
+168,London Fire Brigade,2
+169,emily m,2
+170,UKIP,2
+171,Tony Blair Institute,2
+172,Douglas Murray,0
+173,alan rusbridger,0
+174,Kevin Maguire,1
+175,HuffPost UK,2
+176,Julia Hartley-Brewer,2
+177,David Allen Green,0
+178,YouGov,0
+179,Chatham House,0
+180,Jeremy Hunt,0
+181,Anna Soubry,2
+182,Emily Thornberry,2
+183,Ruth Davidson,0
+184,Cathy Newman,1
+185,Michael Crick,0
+186,Dept for BEIS,0
+187,Iain Dale,0
+188,BuzzFeed UK,0
+189,Jeremy Bowen,2
+190,Angela Rayner 🌈,2
+191,Rory Cellan-Jones,2
+192,New Statesman,2
+193,Hugo Rifkind,0
+194,Jo Maugham QC,2
+195,Vince Cable,2
+196,Sajid Javid,0
+197,Jo Swinson,2
+198,Niall Ferguson,0
+199,Mhairi Black MP🏳️‍🌈,0
+200,Harriet Harman,0
+201,Beth Rigby,1
+202,Polly Toynbee,2
+203,Raheem Kassam,2
+204,Adam Boulton,1
+205,Michel Barnier,0
+206,katya adler,2
+207,India Knight,2
+208,Hadley Freeman,2
+209,Tim Montgomerie,2
+210,The Spectator,2
+211,lyse doucet,0
+212,Paul Waugh,1
+213,Sayeeda Warsi,2
+214,Momentum,2
+215,Isabel Hardman,1
+216,Nick Ferrari,0
+217,Tim Harford,0
+218,Hilary Benn,2
+219,People's Vote UK,2
+220,Tom Holland,0
+221,Andrew Marr,0
+222,Nicky Campbell,0
+223,No.10 Press Office,2
+224,Simon Schama,0
+225,The Daily Mash,0
+226,Isabel Oakeshott,1
+227,Michael Gove,2
+228,Tom Newton Dunn,1
+229,Daniel Hannan,0
+230,Archbishop of Canterbury,0
+231,Labour Press Team,0
+232,Emma Barnett,2
+233,martha lane fox,2
+234,David Aaronovitch,0
+235,Full Fact,2
+236,Priti Patel,0
+237,stellacreasy,2
+238,Tim Shipman,1
+239,Sophy Ridge,1
+240,José Manuel Barroso,0
+241,(((Dan Hodges))),0
+242,Tulip Siddiq,2
+243,John Rentoul,1
+244,Guardian Opinion,0
+245,Sam Coates Sky,1
+246,Rebecca Long-Bailey,0
+247,Andrew Adonis,0
+248,norman smith,1
+249,PA Media,0
+250,Stephanie Flanders,0
+251,Luciana Berger,2
+252,Department for International Trade,0
+253,Nick Sutton,2
+254,Philip Hammond,0
+255,Paul Lewis,2
+256,Jim Messina,0
+257,Chris Mason,0
+258,Peter Spiegel,0
+259,Helen Lewis,2
+260,MPS Events,0
+261,Bloomberg Brexit,0
+262,Johann Hari,0
+263,Andrea Leadsom MP,2
+264,Afua Hirsch,2
+265,Jonathan Freedland,2
+266,Nick Cohen,0
+267,Amber Rudd,2
+268,Lisa Nandy,2
+269,Mark Di Stefano,2
+270,"Ministry of Housing, Communities and Local Govt",0
+271,Katharine Viner,2
+272,Dominic Raab,0
+273,PoliticsHome,2
+274,Lewis Goodall,2
+275,Matt Hancock,2
+276,Victoria Derbyshire,2
+277,Michael Wolff,0
+278,Jon Sopel,2
+279,Alex Crawford,2
+280,Andrew Pierce,0
+281,alex thomson,2
+282,Chris Giles,0
+283,Hannah Jane Parkinson,2
+284,Julia Macfarlane,2
+285,Tony Connelly,2
+286,Ed Conway,0
+287,CBI,2
+288,Grace Blakeley,0
+289,Toby Young,0
+290,Jim Pickard,1
+291,People's Vote HQ,2
+292,Simon Coveney,0
+293,Harry Cole,2
+294,C4 News FactCheck,2
+295,Clive Lewis MP,2
+296,Dr Liam Fox MP,0
+297,Stephen Bush,0
+298,Eddie Mair,0
+299,George Eaton,2
+300,dr Sarah Wollaston,0
+301,Kamal Ahmed,2
+302,Richard Burgon MP,0
+303,Frank Gardner,0
+304,Liz Kendall,2
+305,Kate Hoey,0
+306,Rt Hon Grant Shapps MP,0
+307,Huw Edwards,2
+308,Laura Pidcock,2
+309,Barry Gardiner,2
+310,Zac Goldsmith,2
+311,Heidi Allen,2
+312,sophieraworth,2
+313,Quentin Sommerville,2
+314,"Russian Embassy, UK",0
+315,Alberto Nardelli,2
+316,Joanna Cherry QC,2
+317,suzanne moore,2
+318,tom bradby,1
+319,Kezia Dugdale,2
+320,Peter Oborne,0
+321,fleetstreetfox,2
+322,The Andrew Marr Show,0
+323,Jane Garvey,2
+324,Caroline Flint,2
+325,Rory Bremner,0
+326,Rachel Reeves,0
+327,Lord Ashcroft,0
+328,Joshua Rozenberg,0
+329,Katie Martin,0
+330,Allister Heath,2
+331,Brendan Cox,2
+332,Rafael Behr,2
+333,CCHQ Press,0
+334,BrexitCentral,0
+335,(((Dawn Butler))),2
+336,John Pienaar,1
+337,Ian King,0
+338,IPPR,2
+339,Lionel Barber,2
+340,Mirror Politics,0
+341,Sunny Hundal,2
+342,Steve Baker MP,0
+343,Patrick Wintour,1
+344,Neil Henderson,0
+345,Alex Wickham,0
+346,Stig Abell,0
+347,Gavin Esler,2
+348,Arlene Foster,0
+349,Ian Katz,0
+350,James Forsyth,1
+351,Daniel Sandford,2
+352,emily bell,2
+353,Owen Smith,2
+354,Election Maps UK,0
+355,AndrewSparrow,1
+356,Amol Rajan,0
+357,Johnny Mercer,2
+358,Liz Truss,0
+359,Baroness Morgan of Cotes,2
+360,Mark Austin,2
+361,Angela Eagle,2
+362,John Sentamu,0
+363,Adam Fleming,2
+364,Iain Martin,1
+365,Gideon Rachman,0
+366,Justine Greening,2
+367,Aditya Chakrabortty,2
+368,John Redwood,2
+369,Sian Williams,2
+370,Jane Merrick,1
+371,James Landale,1
+372,Jeremy Cliffe,0
+373,James Cleverly,2
+374,Robert Harris,2
+375,BBC This Week,0
+376,Unite the union,0
+377,Douglas Carswell,0
+378,CourtNewsUK,0
+379,Angus Robertson,2
+380,Marie Le Conte,2
+381,The Media Tweets,0
+382,Matthew Goodwin,0
+383,Jonathan Ashworth,2
+384,Sebastian Payne,2
+385,LSE British Politics,2
+386,(((Zoe Williams))),2
+387,Kate McCann,0
+388,Gaby Hinsliff,0
+389,Richard Corbett,0
+390,Camilla Long,2
+391,Shelagh Fogarty,2
+392,Dan Jarvis,2
+393,Nicholas Soames,2
+394,LabourList,2
+395,Christopher Hope📝,1
+396,Channel 4 Dispatches,2
+397,Nicholas Watt,1
+398,James Ball,2
+399,Theo Usherwood,2
+400,Chris Williamson #GTTO,2
+401,Ben Bradshaw,2
+402,Paul Lewis,2
+403,John Crace,2
+404,Ian Lavery MP,2
+405,Hugh Pym,0
+406,Tom Fletcher,2
+407,Tanni Grey-Thompson,2
+408,Chris Ship,1
+409,Seb Dance MEP 🌹🇪🇺,2
+410,Neal Mann,2
+411,Tom Peck,2
+412,Coffee House,0
+413,Left Foot Forward,2
+414,Richard Tice,2
+415,Jessica Elgot,2
+416,Nadine Dorries 🇬🇧,2
+417,Danny Blanchflower,2
+418,Matt Chorley,1
+419,Vote Leave,2
+420,Orla Guerin,0
+421,Department for Exiting the EU,0
+422,Tom Harwood,2
+423,Nick Boles,0
+424,Bryony Gordon,0
+425,Sophy Ridge on Sunday,2
+426,Matt Forde,2
+427,Chris Bryant,2
+428,Jonathan Portes,2
+429,Peter Hunt,2
+430,Lucy Kellaway,0
+431,Wes Streeting MP,2
+432,Janice Turner,2
+433,Jon Swaine,2
+434,Peter Foster,2
+435,Lindsey Hilsum,2
+436,Michael Deacon,2
+437,UNISON - UK's largest union,0
+438,Rachel Johnson,2
+439,John Harris,0
+440,Peston,2
+441,Gavin Williamson,2
+442,Ayesha Hazarika,2
+443,Michael Heaver MEP,2
+444,Sathnam Sanghera,2
+445,Adam Wagner,2
+446,Ellie Mae O'Hagan 🏴󠁧󠁢󠁷󠁬󠁳󠁿,0
+447,BBC Parliament,2
+448,Matt Ridley,0
+449,Telegraph Politics,2
+450,Allegra Stratton,1
+451,MichaelWhite,1
+452,Dr Rosena Allin-Khan,2
+453,Lib Dem Press Office,2
+454,Kate Andrews,2
+455,Paul Blanchard,2
+456,Iain Macwhirter,2
+457,Annunziata Rees-Mogg,2
+458,Tanmanjeet Singh Dhesi MP,2
+459,Samira Ahmed,2
+460,James Chapman,1
+461,Josh Halliday,2
+462,Layla Moran 🔶 🏳️‍🌈,2
+463,Gloria De Piero,2
+464,Mark Kleinman,2
+465,Gordon & Sarah Brown,0
+466,HuffPost UK Politics,2
+467,Andrea Jenkyns MP,2
+468,Philip Collins,0
+469,James Delingpole QC,2
+470,Electoral Reform Society,2
+471,Owen Gibson,2
+472,Esther McVey,0
+473,Matt Frei,2
+474,Adam Smith Institute,0
+475,Sam Gyimah,0
+476,Patrick O'Flynn,1
+477,James Cook,0
+478,Brandon Lewis MP,2
+479,Anushka Asthana,0
+480,Janine Gibson,2
+481,Mark Wallace,0
+482,The Fabian Society,2
+483,Lucy Powell MP,2
+484,Richard Murphy,0
+485,FT Brussels,0
+486,Matthew d'Ancona,2
+487,Tim Stanley,0
+488,Jon Williams,0
+489,Chris Leslie,2
+490,steve richards,1
+491,Institute for Gov,2
+492,Ipsos MORI,2
+493,"Daniel Boffey
+",1
+494,"Robin Brant
+",1
+495,"George Parker
+",1
+496,"Mohammed Abbas
+",1
+497,"Sam Macrory
+",1
+498,"Tony Grew
+",1
+499,"Tim Ross
+",1
+500,"Ainsley Thomson
+",1
+501,"James Tapsfield
+",1
+502,"Kate Devlin
+",1
+503,"Tom Moseley
+",1
+504,"Tim Castle
+",1
+505,"Craig Woodhouse
+",1
+506,"carolyn quinn
+",1
+507,"oliver wright
+",1
+508,"William Green
+",1
+509,"Robert Hutton
+",1
+510,"Ian Collins
+",1
+511,"Reeta Chakrabarti
+",1
+512,"Patrick Hennessy
+",1
+513,"Simon Mares
+",1
+514,"Simon Carr
+",1
+515,"Ben Duckworth
+",1
+516,"Nigel Nelson
+",1
+517,"james lyons
+",1
+518,"Vincent Moss
+",1
+519,"Joe Murphy
+",1
+520,"lucy manning
+",1
+521,"David Wooding
+",1
+522,"Andy Bell
+",1
+523,"Alex Forrest Whiting
+",1
+524,"Toby Helm
+",1
+525,"David Hencke
+",1
+526,"Allegra Stratton
+",1
+527,"David Maddox
+",1
+528,"Joe Churcher
+",1
+529,"Torcuil Crichton
+",1
+530,"John Higginson
+",1
+531,"Emily Ashton
+",1
+532,"Rowena Mason
+",1
+533,"Rob Merrick
+",1
+534,"Andrew Woodcock
+",1
+535,"James Kirkup
+",1
+536,"Joe Watts
+",1
+537,"Kiran Stacey
+",1
+538,"Tom McTague
+",1
+539,"Michael Savage
+",1
+540,"Jon Craig
+",1
+541,"David Stringer
+",1
+542,"Chris Wimpress
+",1
+543,"David Crow
+",1

@@ -1,0 +1,78 @@
+body { padding-top: 50px; 
+  position: relative;}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: Black;
+
+}
+.plotlyiframe {
+    overflow: hidden;
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  min-width: 700px;
+  border: 0 0 0 0;
+  border-style: none;
+  background:url(../img/loader.gif) center center no-repeat;
+
+
+}
+.visual0{
+	background-image: url('../img/graph.png');
+}
+.visual1{
+	background-image: url('../img/Visual1.png');
+}
+.visual2{
+	background-image: url('../img/Visual2-1.png');
+	transition: background 1s linear;
+}
+.nytstyle {
+	padding-bottom: 0;
+	background-color: White !important;
+	color: #121212;
+	height: 3%;
+}
+.nytstyle a{
+	color: #121212;
+}
+.parad {
+	padding-top: 2%;
+}
+
+ ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+.col-centred{
+	margin: 0 auto; 
+	float: none; 
+	width: 70%;
+	font-family: "Times New Roman", Times, serif;
+}
+.colr{
+	border-left: 1px solid #bbbcbb;
+}
+.imgme{
+	height: 100%;
+width: 100%;
+}
+
+ul.share-buttons .sr-only{
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}

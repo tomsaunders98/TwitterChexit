@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Twitter Visualisation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+  <script src="js/plotly-latest.min.js"></script>
+    <script src="js/main.js"></script>
+  	<link rel="stylesheet" href="css/style.css">
+   </head>
+  <body data-spy="scroll" data-target="#target123" data-offset="0">
+  	<nav id="target123" class="navbar fixed-top navbar-light bg-light navbar-expand-lg">
+  	<a class="navbar-brand" href="#">A Twitter Study</a>
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  		<div class="collapse navbar-collapse" id="navbarToggler">
+  			 <ul class="nav navbar-nav">
+			      <li class="nav-item"><a class="nav-link" href="#section1">Home</a></li>
+			      <li class="nav-item"><a class="nav-link" href="#section2">The Map</a></li>
+			      <li class="nav-item"><a class="nav-link" href="#section3">The Filter</a></li>
+			      <li class="nav-item"><a class="nav-link" href="#section4">The Graph</a></li>
+			      <li class="nav-item"><a class="nav-link" href="#section5">The Hashtag</a></li>
+   			 </ul>
+   		</div>
+	</nav>
+	<header class="masthead visual0" id="section1">
+	</header>
+
+<div class="container parad parag">
+	<div class="row">
+		<div class="col col-centred">
+	  		<blockquote class="twitter-tweet tw-align-center text-center" ><p lang="en" dir="ltr">as a sort of serious thought: as someone who grew up online it really sucks that social media is now the place where you&#39;re meant to project your most professional self, when for most of my life it was the place you specifically went to to get weird</p>&mdash; Marie Le Conte (@youngvulgarian) <a href="https://twitter.com/youngvulgarian/status/1233899818264776706?ref_src=twsrc%5Etfw">February 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+	  		<br />
+	  		<br />
+	  		<h1>Introduction</h1>
+	  		<hr />
+
+  			<p class="lead">Twitter has transformed politics more than any other technological innovation in the last twenty years.</p>
+  			<p>It has democratised access to information over its short lifespan. Politicians, journalists and commentators supply a constant stream of anaylsis, opinions, witticisms and not-so witticisms. If you want to know what the 'political class' thinks you don't have to clear out a newsagents, you just log on.</p>
+  			<p>You also don't have to know whether a particular journalist is influential or whether their jokes are funny: retweers, likes and follower counts do that for you.</p>
+  			<p>Over a series of weeks I have scraped around 50,000 tweets along with the information from 600 of the most important accounts on political twitter to understand the makeup of british political Twitter./p> 
+  			<h2> How it Works</h2>
+  			<p> Investigating political twitter first requires determining which accounts qualify as part of that network. To do this, I used TweetMinster's <a href='https://twitter.com/i/lists/59678382?s=20'> Lobbby Reporter List</a> as my 'anchor' group. I then found every account which at least 20% of the Lobby Reporter list follow and also has at least 50,000 followers. On the picture above, this group of accounts is represented by the purple and green dots whilst the red dots represent 'anchor' accounts.</p>
+  			<br />
+  			<br />
+			<h1 class="text-center">The Map</h1>
+			<hr />
+			<br />
+    	</div>
+	</div>
+</div>
+	<header class="masthead visual1" id="section2">
+	</header>
+<div class="container parad parag">
+	<div class="row">
+		<div class="col col-centred">
+
+			<h3>Echochambers</h3>
+
+			<p> By looking at who follows who, we can see smaller political communities within the larger group of political twitter. Each colour on the map shows a different community. The size of each circle is illustrative of how many other accounts on the map follow it; the more followers from these accounts, the larger the circle. </p>
+			<h4> A closer look*</h4>
+			<h5><b>Unaffiliated</b></h5>
+			<p>These can best be thought of as a mix of journalists who don't fit into either political camps, as well as some political commentators, a few comedians and some large non-political accounts such as <a href="https://twitter.com/jk_rowling">J. K. Rowling</a>.</p>
+			<p>There are a few accounts in this group that you might not expect:</p>
+			<ul>
+				<li><a href="https://twitter.com/DMiliband">David Miliband</a> is unaffiliated but <a href="https://twitter.com/Ed_Miliband">Ed Miliband</a> is firmly in the Labour community.</li>
+				<li>Quite a few Labour politicians associated with the Blairite end of of the Labour party are also in this group, rather than the Labour one, such as <a href="https://twitter.com/PCollinsTimes">Philip Collins</a>, <a href="https://twitter.com/campbellclaret">Alistair Campbell</a> and <a href="https://twitter.com/jessphillips">Jess Phillips</a>.</li>
+				<li><a href="https://twitter.com/RoryStewartUK">Rory Stewart</a> seems to follow more unaffiliated than conservative accoutns as well.</li>
+			</ul>
+			<h5><b>Conservative Leaning</b></h5>
+			<p>This consists of mainly Conservative politicians and Conservative-leaning journalists. There are some (sort-of) unexpected accounts in this group:</p>
+			<ul>
+				<li><a href="https://twitter.com/JohnRentoul">John Rentoul</a>, a "labour-leaning" journalist seems to follow more conservative accounts.</li>
+				<li><a href="https://twitter.com/LeaveEUOfficial">Leave EU</a> is unsurprisingly in the conservative camp. However, it's represented by a tiny circle, demonstrating that even though it's a very large account it is not followed by many of the establishment politicos listed here</li>
+			</ul>
+			<h5><b>Labour Leaning</b></h5>
+			<p>This consists of mainly labour politicians and Labour-leaning journalists. There aren't many unexpected accounts in this group apart from the glaring inclusion of <a href="https://twitter.com/bbcnickrobinson">Nick Robinson</a>.</p>
+			<h5><b>Government Leaning</b></h5>
+			<p> These are made up of quite a few official government accounts such as the Treasury, Prime Minster etc. A few major TV journalists also find themselves in this group such as <a href="https://twitter.com/faisalislam">Faisal Islam</a>, <a href="https://twitter.com/Peston">Robert Peston</a> and <a href="https://twitter.com/SamCoatesSky">Sam Coates</a>.</p>
+			<h5><b>Unaffailiated/International</b></h5>
+			<p> These are made up of largely two separate groups. You have a few American accounts such as Kellyanne Conway and David Axelrod along with quite a few senior journalists such as <a href="https://twitter.com/paulwaugh">Paul Waugh</a>, <a href="https://twitter.com/nicholaswatt">Nicholas Watt</a> and <a href="https://twitter.com/ShippersUnbound">Tim Shipman</a>.</p>
+			<h3>The Biggest Names in Politics</h3>
+			<P>This map is excellent at showing who are the most influential establishment figures on both the right and the left.</P>
+			<p><b>On the left:</b> <a href="https://twitter.com/Kevin_Maguire">Kevin Maguire</a>, <a href="https://twitter.com/patrickwintour">Patrick Wintour</a>, <a href="https://twitter.com/stephenkb">Stephen Bush</a> and <a href="https://twitter.com/andrewrawnsley">Andrew Rawnsley</a>. Notably, <a href="https://twitter.com/OwenJones84">Owen Jones</a> is not as influential as might be expected considering his huge follow count.</p>
+			<p><b>On the Right:</b> <a href="https://twitter.com/FraserNelson">Fraser Nelson</a>, <a href="https://twitter.com/montie">Tim Montgomerie</a>, <a href="https://twitter.com/IainDale">Ian Dale</a>, <a href="https://twitter.com/IsabelHardman">Isabel Hardman</a> among others. Very few surprises there</p>
+			<br />
+
+
+
+			<p>*This graph is based solely on <i>Twitter followers</i>. That means that it's not a perfect indicator of political affiliation and shouldn't be taken as such</p>
+
+			
+			<h1 class="text-center">Further Filtering</h1>
+			<hr />
+			<p> There are a few problems with some of the accounts on the map above as it stands.</p>
+			<ul>
+				<li><b>A)</b> Some of these accounts have nothing to do with UK politics but are just generally large accounts such as <a href="https://twitter.com/NewYorker">The New Yorker</a>, <a href="https://twitter.com/eddieizzard">Eddie Izzard</a> and <a href="https://twitter.com/holland_tom">Tom Holland</a>. </li>
+				<li><b>B)</b> A lot of these accounts aren't really 'proper' twitter accounts as they are company accounts or in the case of accounts, such as <a href="https://twitter.com/David_Cameron">David Cameron</a> or <a href="https://twitter.com/BorisJohnson">Boris Johnson</a>, who clearly aren't 'real', in the sense that they are likely run by a team of aides, they feature very little authentic interaction with other twitter users and an awful lot of videos/photos; all the hallmarks of a managed account.</li>
+			</ul>
+			<p> To get around this, I added another condition to thin the number of accounts which was that <b>they had to follow back at least 20% of the original Anchor group.</b> This certainly isn't a perfect solution but nevertheless it produced some interesting results. </p>
+
+		
+
+			<br />
+			<br />
+		</div>
+	</div>
+</div>
+<header class="masthead visual2" id="section3">
+	</header>
+<div class="container parad parag">
+	<div class="row">
+		<div class="col col-centred">
+			<h3> Who's in and Who's out </h3>
+			<hr />
+			<p> What's most notable about this is that even though the anchor group skews towards the 'Conservative' community  the accounts that qualify lean far more to the 'Labour' side.</p>
+			<p> The reason for this could possibly be that Labour politicians tend to use Twitter properly whilst conservative ones don't.</p>
+			<p>Most of the politicians' accounts who don't qualify are Conservative and most of these seem to be managed accounts such as those of <a href="https://twitter.com/Jeremy_Hunt">Jeremy Hunt</a>, <a href="https://twitter.com/trussliz">Liz Truss</a> and <a href="https://twitter.com/sajidjavid">Sajid Javid</a>. Managed accoutns aren't likely to be following many people, especailly journalists, because no one is actually using the timeline of that account. 
+			</p>
+			<p> Many other accounts which certainly would count as part of political twitter have also fallen by the wayside such as <a href="https://twitter.com/Peston">Robert Peston</a>, <a href="https://twitter.com/faisalislam">Faisal Islam</a> and <a href="https://twitter.com/alexwickham">Alex Wickham</a>. This is due to the relatively arbirtrary and imperfect nature of the criteria. <p>Nevertheless, now that we have a smaller and mroe manageable group of accounts we can now do a bit more anaylsis to see who is the 'best' at twitter:</p>
+			<br />
+			<br />
+			<br />
+			<h1 class="text-center">Twitter Graph</h1>
+			<hr />
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col" style="overflow: auto;">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="plotlyiframe embed-responsive-item" src="https://plotly-dash-twitter.herokuapp.com" id="section4"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container parag">
+	<div class="row">
+		<div class="col col-centred">
+			<h3> Definitions </h3>
+			<p>The chart averages out engagement data (such as likes, comments and retweets) for the last 200 tweets of each accounts.</p>
+			<hr />
+			<ul>
+				<li><b>Engagement</b>: The total likes, comments and retweets divided by followers. The higher the value demontsrates the most imporant attribute of a twitter account: that people are noticing and engaging with its tweets.</li>
+				<li><b>Likeability</b>: On twitter being 'ratiod' means to have more replies than likes on a tweet. It's the best indication there is that a tweet is unpopular. On this graph the average 'ratiod' value is for a person's tweets is represented as their Libeability rating.</li>
+				<li><b>Reach:</b> This is represented by the size of each circle on the graph. It takes average retweets and follower total in to account to give an accurate appraisal of the average 'reach' of a tweet from an account. The larger the circle the more people the account reaches on average with each tweet.</li> 
+				<li><b>Follower Count</b>: The number of followers each account has. </li>
+				<li><b>Mentions:</b> The number of times an account is mentioned by other accounts in the group.</li>
+				<li><b>List Count</b>: The number of lists an account is a member of which is a good indicator of how much the output of an account is valued by others.</li>
+				<li><b>Divisivity</b>: This uses Artificial Intelligence to evaluate the sentiment of tweets relating to a word or phrase. This isn't calculated per user but for all of the 50,000 tweets in total. The less neutral the sentiment, the more divisive the issue.</li>
+				<li><b>Dates</b>: If you hover over a circle, you will see a date range. This indicates the daterange from which the tweets were taken.</li>
+			</ul>
+			<br />
+			<h2>Takeaways</h2>
+			<p>Two groups dominate political twitter in terms of engagement and reach and likely won't come as much of a surprise to many that they are socialist twitter and pro-brexit twitter. The politicians and activiists who represent these groups are consistantly amongst the most engaging and popular on twitter.</p>
+			<hr />
+			<h3>Politicians</h3>
+			<h4>Labour</h4>
+			<h5><b><a href="https://twitter.com/jeremycorbyn">Jeremy Corbyn</a></b> </h5>
+			<p>Intuitively you would expect their to be an inverse relationship between engagement and followers, generally that does hold true, but it doesn't apply to <a href="https://twitter.com/jeremycorbyn">Jeremy Corbyn</a>. He has one of the largest, most engaging and likeable accounts of all of the ones covered and is an outlier compared to other accounts of similiar size.</p>
+			<h5> <b><a href="https://twitter.com/LauraPidcock">Laura Pidcock</a> and <a href="https://twitter.com/IanLaveryMP">Ian Lavery</a></b> </h5>
+			<p>Two other influential socialists, <a href="https://twitter.com/LauraPidcock">Laura Pidcock</a> and <a href="https://twitter.com/IanLaveryMP">Ian Lavery</a> also have excellent excellent engagement for politicians.</p>
+			<p>This demonstrates just how active the socialist left is on twitter, especially when compared to the right of the Labour party and the Conservative party. 
+			<h4> The Bad Boys of Brexit </h4>
+			<h5> <b><a href="https://twitter.com/TiceRichard">Richard Tice</a>, <a href="https://twitter.com/johnredwood">John Redwood</a> and <a href="https://twitter.com/Michael_Heaver">Michael Heaver</a> (in that order)</b></h5>
+			<p> One area of the right which does have a large presence on Twitter is the Brexit supporters.</p>
+			<p>All of these accounts have both excellent engagement and likeability raitings, especially <a href="https://twitter.com/TiceRichard">Richard Tice</a> who has the second highest engagement rating of any account here.</p>
+			<h4>#FPBE</h4>
+			<h5><b><a href="https://twitter.com/gavinesler">Gavin Esler</a></b></h5>
+			<p>The one time Change UK candidate and BBC presenter seems to be quite good at twitter, but he is the only politician here representing the FPBE crowd.</p>
+			<h4>Conservatives</h4>
+			<h5> <b><a href="https://twitter.com/JamesCleverly">James Cleverly</a></b></h5>
+			<p><a href="https://twitter.com/JamesCleverly">James Cleverly</a> has the second most engaging twitter account of any Conservative MP tested here and for an establishment politician rather than an overt Brexiteer such as <a href="https://twitter.com/johnredwood">ohn Redwood</a> that is quite a feat.</p>
+			<p>This does show what I think most people already intuitively know to be true. Managed Twitter accounts really don't work very well as people can when they aren't seeing an authentic voice</p>
+			<hr />
+			<h3>Journalists</h3>
+			<h5> <b><a href="https://twitter.com/carolecadwalla">Carole Cadwalladr</a></b></h5>
+			<p>Love her or hate her. <a href="https://twitter.com/carolecadwalla">Carole Cadwalladr</a>has an excellent presence on twitter. Carole also has one of the highest engagement ratings of any journalists as well as the highest likeability rating of any journalist.</p>
+			<h5><b><a href="https://twitter.com/tconnellyRTE">Tony Connelly</a></b></h5>
+			<p><a href="https://twitter.com/tconnellyRTE">Tony Connelly</a> of RTE also has one of the highest likeability ratings of any journalists, only surparrsed by <a href="https://twitter.com/carolecadwalla">Carole Cadwalladr</a>. </p>
+			<h5> <b><a href="https://twitter.com/sunny_hundal">Sunny Hundal</a></b> </h5>
+			<p> Whilst it isn't easy to see on the graph, <a href="https://twitter.com/sunny_hundal">Sunny Hundal</a> is the only journalist to get a likeability raiting below 1, meaning on avergae he gets more replies than likes on his tweets</p>
+			<h5> <b><a href="https://twitter.com/Robert___Harris">Robert Harris</a></b> </h5>
+			<p> He has the highest engagement of any journalists here, but that might be because by sampling 200 tweets instead of a timerange of tweets it gives unfair advantage to those such as Harris whose 200 tweets span the course of one year(as opposed to 2 months for <a href="https://twitter.com/jeremycorbyn">Jeremy Corbyn</a>).</p>
+			<h5><b><a href="https://twitter.com/huwbbc">Huw Edwards</a></b> </h5>
+			<p> The BBC News presenter is the only BBC journalist to feature prominently on engagement and likeability here, with substantial levels of both.</p>
+			<hr />
+			<h3> Honourable Mentions </h3>
+			<h5> <b><a href="https://twitter.com/C4Dispatches">C4 Dispatches</a></b></h5>
+			<p> Official accounts usually don't engage many people on Twitter. However, <a href="https://twitter.com/C4Dispatches">Channel 4 Dispatches</a> not only does far better than any official account, its one of the best of the accounts surveyed.</p>
+			<br />
+			<br />
+			<br />
+			<h1 class="text-center" id="section5"> #Hashtags </h1>
+			<hr />
+			<br />
+			<p> Twitter wouldn't be Twitter without hashtags. These bar charts show the popularity of each hashtag among the 50,000 tweets that were analysed.</p>
+			<br />
+			<h2 class="text-center">BackBoris?</h2>
+			<hr />
+			<div id="bar1" class="text-center">
+				<script type="text/javascript">
+					var titles = ['#backboris', '#stopboris'];
+					var values = [78, 77];
+					CreateGraph(titles, values, 'bar1');
+ 				</script>
+ 			</div>
+ 			<h2 class="text-center">Brexit?</h2>
+ 			<hr />
+			<div id="bar2" class="text-center">
+				<script type="text/javascript">
+					var titles = ['#voteleave', '#peoplesvote'];
+					var values = [148, 155];
+					CreateGraph(titles, values, 'bar2');
+ 				</script>
+ 			</div>
+ 			<h2 class="text-center">Vote Who?</h2>
+ 			<hr />
+			<div id="bar3" class="text-center">
+				<script type="text/javascript">
+					var titles = ['#voteconservative', '#votelabour'];
+					var values = [72, 135];
+					CreateGraph(titles, values, 'bar3');
+ 				</script>
+ 			</div> 			
+ 			<h2 class="text-center" >What Are We Watching ?</h2>
+ 			<hr />
+			<div id="bar4" class="text-center">
+				<script type="text/javascript">
+					var titles = ['#pmqs', '#newsnight', '#peston', '#marr', '#ridge'];
+					var values = [264, 237, 225, 216, 197];
+					CreateGraph(titles, values, 'bar4');
+ 				</script>
+ 			</div>
+ 			<br />
+ 			<br />
+ 			<p> The results of the hashtag findings are not particulalry notable. It's not surprising that political twitter skews towards labour but it is interesting to see how close some of these contrasting hashtags were.</p>
+ 			<hr />
+ 				<blockquote class="twitter-tweet tw-align-center text-center"><p lang="en" dir="ltr">The Stoic saw Twitter coming from a couple of millennia off. <a href="https://t.co/IJmlZJRWF1">https://t.co/IJmlZJRWF1</a></p>&mdash; Aditya Chakrabortty (@chakrabortty) <a href="https://twitter.com/chakrabortty/status/1222093093115219968?ref_src=twsrc%5Etfw">January 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ 				<br /> 
+ 				<br />
+ 				<h1>Conclusion</h1>
+ 				<hr />
+ 		</div>
+ 	</div>
+ 	<div class="row col-centred">
+
+ 		<div class="col-sm-6">
+ 			<p> I'm a third year History student at Durham University. I'm about to graduate and next year I will be studying a Masters in Interactive Journalism at City University. I'm interested in data journalism and the purpose of this project was to develop my understanding of network-anaylsis, Machine Learning and Python graphing libraries . </p>
+ 			<p> If you are interested in finding out more, the code for the entire project is available on GitHub.</p>
+ 			<ul>
+ 				<li>Explore the code on Github</li>
+ 				<li>Follow me on <a href="https://twitter.com/tomandthenews">Twitter</a> </li>
+ 				<li>Connect on <a href="https://www.linkedin.com/in/tomsaunders98/">LinkedIn</a></li>
+ 			</ul>
+ 		</div>
+ 		<div class="col-sm-6 colr">
+ 			<img src="img/me.jpg" class="img-fluid imgme" />
+ 		</div>
+ 	</div>
+ 	<div class="row">
+ 		<div class="col col-centred">
+ 			<h3>Share this</h3>
+ 			<ul class="share-buttons">
+				<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftwitter.chexit.co.uk&quote=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;"><img alt="Share on Facebook" src="img/simple_icons_black/Facebook.png" /></a></li>
+				<li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Ftwitter.chexit.co.uk&text=:%20http%3A%2F%2Ftwitter.chexit.co.uk&via=tomandthenews" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img alt="Tweet" src="img/simple_icons_black/Twitter.png" /></a></li>
+				<li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Ftwitter.chexit.co.uk&quote=&s=" target="_blank" title="Post to Tumblr" onclick="window.open('http://www.tumblr.com/share?v=3&u=' + encodeURIComponent(document.URL) + '&quote=' +  encodeURIComponent(document.title)); return false;"><img alt="Post to Tumblr" src="img/simple_icons_black/Tumblr.png" /></a></li>
+				<li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Ftwitter.chexit.co.uk&description=" target="_blank" title="Pin it" onclick="window.open('http://pinterest.com/pin/create/button/?url=' + encodeURIComponent(document.URL) + '&description=' +  encodeURIComponent(document.title)); return false;"><img alt="Pin it" src="img/simple_icons_black/Pinterest.png" /></a></li>
+				<li><a href="https://getpocket.com/save?url=http%3A%2F%2Ftwitter.chexit.co.uk&title=" target="_blank" title="Add to Pocket" onclick="window.open('https://getpocket.com/save?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Add to Pocket" src="img/simple_icons_black/Pocket.png" /></a></li>
+				<li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Ftwitter.chexit.co.uk&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Submit to Reddit" src="img/simple_icons_black/Reddit.png" /></a></li>
+				<li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftwitter.chexit.co.uk&title=&summary=&source=http%3A%2F%2Ftwitter.chexit.co.uk" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Share on LinkedIn" src="img/simple_icons_black/LinkedIn.png" /></a></li>
+				<li><a href="http://wordpress.com/press-this.php?u=http%3A%2F%2Ftwitter.chexit.co.uk&quote=&s=" target="_blank" title="Publish on WordPress" onclick="window.open('http://wordpress.com/press-this.php?u=' + encodeURIComponent(document.URL) + '&quote=' +  encodeURIComponent(document.title)); return false;"><img alt="Publish on WordPress" src="img/simple_icons_black/Wordpress.png" /></a></li>
+				<li><a href="https://pinboard.in/popup_login/?url=http%3A%2F%2Ftwitter.chexit.co.uk&title=&description=" target="_blank" title="Save to Pinboard" onclick="window.open('https://pinboard.in/popup_login/?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Save to Pinboard" src="img/simple_icons_black/Pinboard.png" /></a></li>
+				<li><a href="mailto:?subject=&body=:%20http%3A%2F%2Ftwitter.chexit.co.uk" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img alt="Send email" src="img/simple_icons_black/Email.png" /></a></li>
+			</ul>
+ 			<h3>Comments</h3>
+ 			<hr />
+ 			<div id="disqus_thread"></div>
+				<script>
+
+
+				var disqus_config = function () {
+				this.page.url = "http://twitter.chexit.co.uk/index.html"
+
+				};
+
+				(function() { 
+					var d = document, s = d.createElement('script');
+					s.src = 'https://twitter-chexit-co-uk.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		</div>
+	</div>
+</div>
+<script id="dsq-count-scr" src="//twitter-chexit-co-uk.disqus.com/count.js" async></script>
+</body>
+</html>
