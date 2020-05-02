@@ -93,12 +93,12 @@ Web
 * **Plotly-JS** (for bargraphs)
 
 #### Files
-* Index.html
-		* Basic Bootstrap single column file for arranging data and info etc.
-* js/main.js
-		* Custom Bargraph function + scrolling change image.
-* css/style.css
-		* small amount of custom.css (almost all css is straight from boostrap)
+* **Index.html**
+	* Basic Bootstrap single column file for arranging data and info etc.
+* **js/main.js**
+	* Custom Bargraph function + scrolling change image.
+* **css/style.css**
+	* small amount of custom.css (almost all css is straight from boostrap)
 
 
 [Interactive Graph](https://github.com/tomsaunders98/twittersphere)
