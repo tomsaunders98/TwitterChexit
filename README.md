@@ -14,7 +14,7 @@ This contains the code for taking a twitter list and then extrapolating a networ
 #### Requirements:
 * **Python**
 * **Twitter API** access + **Tweepy**
-		* It isn't easy to do the entire anaylsis in Twint as Twitter will quickly block access if you are trying to download all of the Followers from an account. 
+	* It isn't easy to do the entire anaylsis in Twint as Twitter will quickly block access if you are trying to download all of the Followers from an account. 
 * **Twint**
 * **Pandas**
 
@@ -70,10 +70,10 @@ The model was trained on the [betsentiment dataset](https://github.com/charlesma
 
 #### Requirements
 * **NTLK** (custom stopwords and word_tokenize)
-		* I've added the custom stopwords file which preservers sentiment affecting words.
+	* I've added the custom stopwords file which preservers sentiment affecting words.
 * **BeautifulSoup** (to remove HTML tags etc. from tweets)
 * **Fasttext**
-		* Model Trainer
+
 
 #### Files
 
@@ -104,7 +104,7 @@ Web
 [Interactive Graph](https://github.com/tomsaunders98/twittersphere)
 ----
 
-The interactive bubble chart is hosted on a heroku which is directly connected to a seperate repo ([twittersphere](https://github.com/tomsaunders98/twittersphere)).  
+The interactive bubble chart is hosted on a Heroku which is directly connected to a seperate repo ([twittersphere](https://github.com/tomsaunders98/twittersphere)).  
 
 ## Share Your Thoughts
 I'm on twitter at [@tomandthenews](https://twitter.com/tomandthenews). If you have any questions/suggestions please let me know! 
