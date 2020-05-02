@@ -34,9 +34,8 @@ def addtofile(message):
 
 ## Connecting to twitter API, returning False if fails to authenticate
 def connect():
-    auth = tweepy.OAuthHandler("k6zQPVJcqCNSdxhiEfCHxSZyd", "CSzTcURWlfof7QjpIbgxWBF2LaHHaE8Fv8C7N1RS3IJVNZxNNf")
-    auth.set_access_token("819161304669847553-Uhxs5EgaAvwHpS0l1yutpjf0JUnqVhv",
-                          "R6YFwcCeilUGen6vfubW1vdIc5VVNk4nTT4WGBuTCEe27")
+    auth = tweepy.OAuthHandler()
+    auth.set_access_token()
     api = tweepy.API(auth)
     try:
         api.verify_credentials()

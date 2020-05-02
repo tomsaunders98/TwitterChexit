@@ -343,9 +343,9 @@ def upsampling(input_file, output_file, ratio_upsampling=1):
             if i % 10000 == 0:
                 print("writer" + str(i))
 
-training_data_path ='C:\\Users\\Tom\\PycharmProjects\\SentimentAnalysis\\uptweets.train'
-validation_data_path ='C:\\Users\\Tom\\PycharmProjects\\SentimentAnalysis\\tweets.validation'
-model_path ='C:\\Users\\Tom\\PycharmProjects\\SentimentAnalysis\\'
+training_data_path =''
+validation_data_path =''
+model_path =''
 model_name="model-en"
 
 def train():

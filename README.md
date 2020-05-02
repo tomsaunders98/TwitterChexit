@@ -78,7 +78,7 @@ The model was trained on the [betsentiment dataset](https://github.com/charlesma
 #### Files
 
 ##### 1. DataCleaner
-This cleans the data before it is trained. This includes removing links, converting emojis, removing contractions, correcting spellings, removing punctuation and removing stopwords.
+This cleans the data before it is trained. This includes removing links, converting emojis, removing contractions, correcting spellings, removing punctuation and removing stopwords. Once the input data has been cleaned and upsampled it then trains the model.
 
 ##### 2. TweetSorter
 This uses the model to analyses the sentiment of all the 50,000 tweets and adds it to the larger tweets.csv (located in /data)

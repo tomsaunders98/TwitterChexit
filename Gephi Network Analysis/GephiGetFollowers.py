@@ -21,7 +21,7 @@ sys.stderr = sys.stdout
 logging.basicConfig(format='%(asctime)-15s %(name)s - %(levelname)s - %(message)s')
 
 def uploadfile(filename):
-    session = ftplib.FTP_TLS('ftp.aclearvote.co', 'TwitterSphere@aclearvote.co', 'TwitterSphere')
+    session = ftplib.FTP_TLS()
     file = open(filename, 'rb')
     filemsg = "STOR " + filename
     session.storbinary(filemsg, file)
@@ -41,9 +41,8 @@ def clearstring(var):
     return var
 
 def connect():
-    auth = tweepy.OAuthHandler("k6zQPVJcqCNSdxhiEfCHxSZyd", "CSzTcURWlfof7QjpIbgxWBF2LaHHaE8Fv8C7N1RS3IJVNZxNNf")
-    auth.set_access_token("819161304669847553-Uhxs5EgaAvwHpS0l1yutpjf0JUnqVhv",
-                          "R6YFwcCeilUGen6vfubW1vdIc5VVNk4nTT4WGBuTCEe27")
+    auth = tweepy.OAuthHandler()
+    auth.set_access_token()
     api = tweepy.API(auth)
     try:
         api.verify_credentials()
