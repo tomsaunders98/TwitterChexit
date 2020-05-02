@@ -1,4 +1,4 @@
-![Logo]()
+![Logo](https://github.com/tomsaunders98/TwitterChexit/raw/master/web/img/graph.png)
 # [Political Twitter](http://twitter.chexit.co.uk/ "Twitter Analysed")
 This is all the code for the website [twitter.chexit.co.uk/](http://twitter.chexit.co.uk/) which analyses political twitter.
 
@@ -19,7 +19,7 @@ This contains the code for taking a twitter list and then extrapolating a networ
 * **Pandas**
 
 #### Files:
-##### 1. TwitterListtoCsv.py
+##### 1. TwitterListtoCsv
 Converts a Twitter list (copied into a txt file) into a CSV to create a list of anchors. 
 
 ##### 2. TweetMinsterGetFollower
@@ -52,7 +52,7 @@ To create a network map I needed to download the entire friend list for each acc
 Gephi works by feeding it a list of nodes (in this case accounts) and edges which link one node to another. In this case the edges were created between two accounts when one followed the other. This code is used to create the edge and node files which can then be loaded into Gephi in order to develop the network map. 
 
 #### Notes
-When the files were loaded into Gephi I used Fruchterman Reingold to visualise the initial network for Visual1 I and ForceAtlas2 with PreventOverlap to visualise the network for Visuals2-1 and Visuals2-2. 
+When the files were loaded into Gephi I used Fruchterman Reingold to visualise the initial network for graph.png I and ForceAtlas2 with PreventOverlap to visualise the network for the Visuals. 
 
 The Communities were created using Modularity and the size of the circles were determined using Centrality. 
 
